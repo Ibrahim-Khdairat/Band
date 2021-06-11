@@ -20,7 +20,7 @@ btn.addEventListener('click',handelClick);
 
 function handelClick(event){
   event.preventDefault();
-let njh=prompt('saljdkdjkdh')
+
 
 
 
