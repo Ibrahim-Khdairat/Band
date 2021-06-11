@@ -13,3 +13,16 @@ function carousel() {
   x[myIndex-1].style.display = "block";  
   setTimeout(carousel, 4000); // Change image every 4 seconds
 }
+
+let btn=document.getElementById('buttonS');
+
+btn.addEventListener('click',handelClick);
+
+function handelClick(event){
+  event.preventDefault();
+let njh=prompt('saljdkdjkdh')
+
+
+
+
+}

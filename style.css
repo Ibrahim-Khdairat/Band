@@ -1,5 +1,8 @@
-body{
-background-color: black;
+*{
+    box-sizing: border-box;
+}
+header{
+    background-color: black;
 }
 nav{
     background-color: black;
@@ -88,10 +91,273 @@ nav ul li a:hover{
     font-size: 18px;
     text-align: center;
 }
-.sec1{
-    background-color: white;
-    margin-top: -20px;
-    margin-left: -10px;
+.middleDiv h2{
+   width: 200px;
+   margin-left: auto; 
+   margin-right: auto;
+   font-family: "Segoe UI",Arial,sans-serif;
+    font-size: 30px;
+ font-weight: 400;
+ margin-top:60px;
+}
+.middleDiv i{
+    display: block;
+    width: 150px;
+    margin-left: auto; 
+    margin-right: auto;
+  color: gray;
+}
+.middleDiv p{
+    width: 768px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.5;
+    font-size: 15px;
+    font-family: sans-serif;
+    text-justify: distribute;
+    text-align: justify;
+    text-justify:inter-word;
+}
+.containerDiv{
+    width: 768px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+
+}
+.containerDiv  img{
+    display: block;
+   float: left;
+     margin-top: 40px;
+    height: 154px;
+    width: 154px;
+    margin-left: 90px;
+}
+.containerDiv span{
+    position: absolute;
+    margin-left: 150px;
+    font-size: 17px;
+
+}
+#theDate{
+    background-color: black;
+    margin-top: 348px;
     width: 100%;
+    height: 760px;
+}
+#theDate h2{
+    color :white;
+    margin: 10px 0px;
+    font-family: "Segoe UI",Arial,sans-serif;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 70px;
+    font-weight: 400;
+    font-size: 31px;
+}
+#theDate i{
+    display: block;
+    width: 210px;
+    margin-left: auto;
+    margin-right: auto;
+    color:gray;
+}
+.ulEl{
+    background-color: white;
+    width: 768px;
+    height: 117px;
+    padding-left: 0%;
+    color:#757575;
+    list-style-type:  none; 
+    font-family: sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+}
+.ulEl li{
+border-bottom: 1px solid lightgray;
+padding-left: 16px;
+padding: 10px;
+}
+.sold{
+    margin-left: 20px;
+    color: white;
+    padding: 4px;
+    font-size: 14px;
+    background-color: rgb(243, 71, 41);
+}
+#numSpan{
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    border-radius: 50%;
+    padding: 0px 8px;
+    margin: 0px 16px 0px 0px;
+    float: right;
+}
+.container1{
+    width: 768px;
+    height: 466px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;}
+     
+
+    .container1 div img{
+    width: 245px;
+    height: 184px;
+    margin-bottom: 15px;
+}
+.container1 div img:hover{
+      filter:brightness(50%);
+
     
+}
+.firstDiv{
+    height: 370px;
+    width: 245px;
+    float: left;
+    background-color: white;
+    margin-right: 16px;
+}
+.secondDiv{
+    height: 370px;
+    width: 245px;
+    float: left;
+    background-color: white;
+    margin-right: 16px;
+}
+.thirdDiv{
+    height: 370px;
+    width: 245px;
+    float: left;
+    background-color: white;
+
+}
+b{
+    width: 64px;
+    height: 18px;
+    font-size: 15px ;
+    font-family:sans-serif;
+    margin-left: 15px;
+}
+.date{
+    margin-left: 15px;
+    color: gray;
+    display: block;
+    margin-top: 18px;
+}
+.container1 p{
+    width: 220px;
+    margin: 15px;
+}
+.container1 button{
+    padding: 8px 17px;
+    font-family: sans-serif;
+    font-size: 15px;
+    color: white;
+    background-color: black;
+    border: none;
+    margin-left: 15px;
+}
+.container1 button:hover{
+    background-color: rgb(199, 185, 185);
+}
+#contact{
+    width: 100%;
+    height: 440px;
+}
+#contact i{
+    
+    padding: 4px;
+    
+}
+.i{
+    display: block;
+    width: 179px;
+    margin-right: auto;
+    margin-left: auto;
+    color: rgb(158, 155, 155);
+    margin-top: -8px;
+}
+#contact h2{
+    width: 200px;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: sans-serif;
+    font-weight: 100;
+    padding-top: 46px;
+    font-size: 32px;
+    
+}
+.divI{
+    width: 801px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+
+}
+.address{
+    display: block;
+    margin-top: -72px;
+    position: absolute;
+    margin-left: 36px;
+    font-size: 19px;
+    font-family: sans-serif;
+    line-height: 23px;
+}
+form{
+    float: right;
+    margin-right: 244px;
+    margin-top: -91px;
+}
+input{
+    width: 184px;
+    height: 40px;
+    margin-bottom: 8px;
+    padding: 8px;
+
+}
+#third{
+    display: block;
+    width: 371px;
+}
+form button{
+    border: none;
+    width: 71px;
+    float: right;
+    background-color: black;
+    height: 38px;
+    color: white;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+form button:hover{
+    color: black;
+    background-color: rgb(163, 161, 161);
+}
+#divFooter{
+    width: 100%;
+    height: 200px;
+    background-color: #f1f1f1;
+}
+#divFooter i{
+   width: 200px;
+   margin-left: auto;
+   margin-right: auto;
+}
+.divFa{
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 23px;
+    padding-top: 71px;
+    color: rgb(90, 88, 88);
+}
+.divFa i{
+    display: inline;
+    margin-left: 8px;
+}
+.divFa i:hover{
+    opacity: .5;
 }
