@@ -14,15 +14,33 @@ function carousel() {
   setTimeout(carousel, 4000); // Change image every 4 seconds
 }
 
-let btn=document.getElementById('buttonS');
 
-btn.addEventListener('click',handelClick);
+let ticketBuyContEl = document.getElementById('ticketBuyCont');
+
+let buybuttonEl_1 = document.getElementById('buttonS1');
+let buybuttonEl_2 = document.getElementById('buttonS2');
+let buybuttonEl_3 = document.getElementById('buttonS3');
+
+
+
+buybuttonEl_1.addEventListener('click',handelClick);
+buybuttonEl_2.addEventListener('click',handelClick);
+buybuttonEl_3.addEventListener('click',handelClick);
+
 
 function handelClick(event){
   event.preventDefault();
 
-
-
+  ticketBuyContEl.removeAttribute('hidden');
 
 
 }
+
+let closeEl = document.getElementById('close');
+closeEl.addEventListener('click',handleClose);
+ function handleClose()
+ {
+  ticketBuyContEl.setAttribute('hidden',1);
+
+ }
+
